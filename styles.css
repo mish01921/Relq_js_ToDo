@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    background: #5444;
+}
+h3 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+ input {
+    padding: 7px;
+    font-size: 18px;
+ }
