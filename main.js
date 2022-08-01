@@ -1,8 +1,17 @@
-let addMessage = document.getElementById("message");
-let button = document.getElementById("add");
+// Սա այն զանգվածն է, որը կպահի անելիքների ցանկի տարրերը
+let todoItems = [];
 
-button.addEventListener ("click", function(){
+function addTodo(text) {
+    const todo = {
+        text,
+        checkid: false,
+        id: Date.now(),
+    }
+    todoItems.push(todo);
+    console.log(todoItems);
+}
 
-    
-    console.log(addMessage.value);
-})
+// select form in html
+const form = document.querySelector(".js-form")
+
+// add submit event listener
