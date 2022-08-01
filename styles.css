@@ -1,6 +1,6 @@
 body{
   height: 100vh;
-  background: linear-gradient(to right, #485563, #29323c);   
+  background: linear-gradient(to right, #467bb3, #ccd3da);   
 }
 .container{
   max-width: 500px;
@@ -10,8 +10,8 @@ body{
   transform: translate(-50%, -50%);
   border: 1px solid white;
   padding: 30px;
-  background-color: #fafafa;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #e0adad;
+  box-shadow: rgba(105, 16, 16, 0.35) 0px 5px 15px;
 }
 .input-field{
   text-align: center;
